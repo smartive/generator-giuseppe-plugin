@@ -1,0 +1,26 @@
+{
+  "name": "generator-giuseppe-plugin",
+  "version": "0.0.1",
+  "description": "Yeoman generator for giuseppe plugins",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartive/generator-giuseppe-plugin.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "giuseppe",
+    "giuseppe-plugin",
+    "plugin"
+  ],
+  "author": "Christoph Bühler <christoph@smartive.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartive/generator-giuseppe-plugin/issues"
+  },
+  "homepage": "https://github.com/smartive/generator-giuseppe-plugin#readme"
+}
