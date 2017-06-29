@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/smartive/generator-giuseppe-plugin/issues"
   },
-  "homepage": "https://github.com/smartive/generator-giuseppe-plugin#readme"
+  "homepage": "https://github.com/smartive/generator-giuseppe-plugin#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash": "^4.17.4",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  }
 }
