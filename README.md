@@ -11,6 +11,7 @@ Prerequisities:
 npm install -g yo
 ```
 
+After installing yeoman, you can install the generator.
 ```bash
 npm install -g generator-giuseppe-plugin
 yo giuseppe-plugin
