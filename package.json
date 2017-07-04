@@ -1,14 +1,15 @@
 {
   "name": "generator-giuseppe-plugin",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Yeoman generator for giuseppe plugins",
   "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartive/generator-giuseppe-plugin.git"
+    "url": "https://github.com/smartive/generator-giuseppe-plugin.git"
   },
   "keywords": [
     "yeoman-generator",
@@ -28,5 +29,8 @@
     "lodash": "^4.17.4",
     "yeoman-generator": "^1.1.1",
     "yosay": "^2.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^6.3.6"
   }
 }
